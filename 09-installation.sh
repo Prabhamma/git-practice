@@ -7,4 +7,4 @@ if [ $USERID -ne 0 ]
  echo "install git"
 fi
 dnf install git -y
-echo $?
+exit 0
