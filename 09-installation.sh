@@ -8,6 +8,6 @@ then
 echo "do not run the script"
  else 
 echo "run the script"
-exit 0
+exit 1
 
 fi
