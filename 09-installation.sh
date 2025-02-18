@@ -1,10 +1,5 @@
 #!/bin/bash
 
-USERID=$(id -u)
+USERID=(id -u)
+echo: "$USERID"
 
-if [ $USERID -ne 0 ]
- then 
- echo "install git"
-fi
-dnf install git -y
-exit 0
