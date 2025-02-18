@@ -15,7 +15,6 @@ dnf list installed git
 
 if [ $? -ne 0 ]
 then 
-
 echo "install git"
 dnf install git -y
 else
