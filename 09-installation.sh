@@ -28,7 +28,7 @@ if[ $? -ne 0 ]
 then
 
 echo "install mysql"
-dnt install mysql -y
+dnf install mysql -y
 else
 echo "do not install mysql"
 
